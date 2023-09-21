@@ -5,26 +5,26 @@ function Header(props) {
   return (
     <Container>
         <a>
-            <img src = "/images/logo.svg" />
+            <img src = "/images/logo.svg"  alt='tesla'/>
         </a>
         <Menu>
             <p>
-                <a href='#'>Model S</a>
+                <a href='#modelS'>Model S</a>
             </p>
             <p>
-                <a href='#'>Model 3</a>
+                <a href='#model3'>Model 3</a>
             </p>
             <p>
-                <a href='#'>Model X</a>
+                <a href='#modelX'>Model X</a>
             </p>
             <p>
-                <a href='#'>Model Y</a>
+                <a href='#modelY'>Model Y</a>
             </p>
             <p>
-                <a href='#'>Solar Roof</a>
+                <a href='#solarRoof'>Solar Roof</a>
             </p>
             <p>
-                <a href='#'>Solar Panels</a>
+                <a href='#solarPanel'>Solar Panels</a>
             </p>
         </Menu>
         <RightMenu>
